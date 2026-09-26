@@ -1,0 +1,88 @@
+# ==============================================
+# Datasets & Large Data Files
+# ==============================================
+dataset/
+dataset
+output/
+output
+*.tsv
+*.csv
+*.parquet
+*.feather
+*.arrow
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+
+# ==============================================
+# Submission ZIPs (large binary files)
+# ==============================================
+*.zip
+submission/candidate_pairs.tsv
+submission/matching_results.tsv
+submission_v2/candidate_pairs.tsv
+submission_v2/matching_results.tsv
+
+# ==============================================
+# Student Resources (provided data / assets)
+# ==============================================
+6ab10eb3b23ba_student_resource/
+student_resource/
+
+# ==============================================
+# Python
+# ==============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+.Python
+env/
+venv/
+.venv/
+ENV/
+.env
+
+# ==============================================
+# ML / Model Artifacts
+# ==============================================
+*.model
+*.lgb
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+models/
+checkpoints/
+
+# ==============================================
+# IDE / OS
+# ==============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================================
+# GSD / Planning (optional — keep or remove)
+# ==============================================
+.planning/
+
+# ==============================================
+# Logs & Temp
+# ==============================================
+*.log
+*.tmp
+*.bak
